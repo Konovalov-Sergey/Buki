@@ -5,20 +5,20 @@ strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt,
 dd, ol, ul, li,fieldset, form, label, legend,table, caption,
 tbody, tfoot, thead, tr, th, td,article, aside, canvas, details,
 embed, figure, figcaption, footer, header, hgroup, menu, nav,
-output, ruby, section, summary, time, mark, audio, video 
+output, ruby, section, summary, time, mark, audio, video
   margin: 0
   padding: 0
   border: 0
   vertical-align: baseline
-body, html 
+body, html
   height: 100%
-html 
+html
   box-sizing: border-box
-*, *:before, *:after 
+*, *:before, *:after
   box-sizing: inherit
-body 
+body
   font: normal 14px/140% Roboto, Helvetica, Arial, Tahoma, sans-serif
-img,fieldset, a img 
+img,fieldset, a img
   border: none
 
 input[type="text"],
@@ -26,21 +26,29 @@ input[type="email"],
 input[type="tel"],
 input[type="password"],
 input[name="cardNumber"],
-textarea 
+textarea
   -webkit-appearance: none
   border-radius: 0
 
-textarea 
+textarea
   overflow: auto
 
-input, button 
+input, button
   margin: 0
   padding: 0
   border: 0
-input[type="submit"], button 
+input[type="submit"], button
   cursor: pointer
 
 div, input, textarea, select,button,
-h1,h2,h3,h4,h5,h6,a,span,a:focus 
+h1,h2,h3,h4,h5,h6,a,span,a:focus
   outline: none
 
+:focus::-webkit-input-placeholder
+	color: transparent !important
+:focus::-moz-placeholder
+	color: transparent !important
+:focus:-moz-placeholder
+	color: transparent !important
+:focus:-ms-input-placeholder
+	color: transparent !important
